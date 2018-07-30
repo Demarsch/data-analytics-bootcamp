@@ -12,3 +12,5 @@ If you want to run a successful project on Kickstarter:
 2.	Best time to launch the project is between April and June. Worst time is Christmas and New Year holidays/vacations;
 
 3.	The less money you ask the more likely you will succeed.
+
+See [Conclusions and Limitations.docx](Conclusions%20and%20Limitations.docx) for mor information
