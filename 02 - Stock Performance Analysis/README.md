@@ -26,4 +26,6 @@ In this assignment I'm going to analyze 90 Mb of the stock exchange data that co
 
 Since the stock data inside published Excel spreadsheet is already sorted first by ticker and then by trade date, this solution doesn't invole manual sorting and using of map (dictionary) data structure thus its complexity is at its theoretical limit of __O(n)__. 
 
-On my machine (Intel Core I5-7400, 8 GB RAM, Win10 x64) a 90 Mb file is processed in 35-38 seconds.
+On my machine (Intel Core i5-7400 3GHz, 8 GB RAM, Win10 x64) a 90 Mb file is processed in 35-38 seconds.
+
+On my not-so-new laptop (Intel Core i5-4210U 1.7GHz, 6 GB RAM, Win10 x4) it takes 55-48 seconds.

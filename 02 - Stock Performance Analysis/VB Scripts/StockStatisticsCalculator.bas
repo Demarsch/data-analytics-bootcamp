@@ -1,15 +1,16 @@
 Attribute VB_Name = "StockStatisticsCalculator"
 ' Reads the stock data from the specific worksheet a build a collection of stocks
 Function ReadStockData(currentWorksheet As Worksheet) As collection
-    Dim row As Long
+    Dim lastRow as Long
     Dim currentStock As Stock
     Dim currentTicker As String
     Dim lastTicker As String
     Dim result As New collection
-    
+
+    lastRow = Cells(Rows.Count, 1).End(xlUp).Row
     row = 2
     ' We skip the header line and go until we are out of values
-    Do While currentWorksheet.Cells(row, 1).value <> ""
+    For row = 2 to lastRow
         currentTicker = currentWorksheet.Cells(row, 1).value
         ' If this is the very first line we process, or this line contains a different ticker than the previous one, we create a new stock
         If lastTicker = "" Or currentTicker <> lastTicker Then
@@ -32,7 +33,7 @@ Function ReadStockData(currentWorksheet As Worksheet) As collection
             currentStock.TotalVolume = currentStock.TotalVolume + currentWorksheet.Cells(row, 7).value
         End If
         row = row + 1
-    Loop
+    Next row
     Set ReadStockData = result
 End Function
 
