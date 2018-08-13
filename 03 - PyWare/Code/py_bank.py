@@ -12,7 +12,7 @@ _input_file_name = 'budget_data.csv'
 _output_file_name = 'budget_data_financial_analysis.txt'
 
 def report_no_input_file():    
-    '''Print the information on data file that was not found and on all locations it has been looked for.'''
+    '''Print the information on data file that was not found and on all locations it has been looked for at.'''
     file_locations = shared.get_input_file_locations(_input_file_name)
     shared.print_separator()
     print('The input file was not found. Please place it at one of the following locations:')
