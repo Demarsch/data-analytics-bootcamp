@@ -9,3 +9,5 @@ This repository will contain all my activities related to the completion of the 
 [02 - Stock Performance Analysis](02%20-%20Stock%20Performance%20Analysis)
 
 [03 - PyWare](03%20-%20PyWare)
+
+[04 - The Kingdom of Pandas](04%20-%20The%20Kingdom%20of%20Pandas)
