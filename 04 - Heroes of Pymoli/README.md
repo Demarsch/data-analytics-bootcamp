@@ -14,8 +14,8 @@ Imagine that I got a data analyst position in a gaming company that developed a 
   
 - A Jupyter Notebook [HeroesOfPymoli.ipynb](Code/HeroesOfPymoli.ipynb) that contains Python code, all the necessary data breakdowns and some trends uncovered
 
-- A markdown file [HeroesOfPimoli.md](Output/HeroesOfPimoli.md) that contains just data breakdowns and analysis
+- A markdown file [HeroesOfPymoli.md](Output/HeroesOfPymoli.md) that contains just data breakdowns and analysis
 
 - Also here is a screenshot of the part of the analysis
 
-![Heroes of Pymoli Summary](Screenshots/HerioesOfPymoli.png)
+![Heroes of Pymoli Summary](Screenshots/HeroesOfPymoli.png)
