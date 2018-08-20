@@ -10,12 +10,12 @@ Imagine that I got a data analyst position in a gaming company that developed a 
 
 ### Heroes of Pymoli
 
-Note that my part is just to summarize and not sanitize the data (we assume that the sales department already provided us a clean dataset)
-
-- The example file *purchase_data.csv* with incoming data
+- The example file [purchase_data.csv](Input/purchase_data.csv) with raw data
   
-- A Jupyter Notebook *HeroesOfPymoli.ipynb* that contains Python code, all the necessary data breakdowns and some trends uncovered
+- A Jupyter Notebook [HeroesOfPymoli.ipynb](Code/HeroesOfPymoli.ipynb) that contains Python code, all the necessary data breakdowns and some trends uncovered
 
-- Also here is a screenshot of part of the analysis
+- A markdown file [HeroesOfPimoli.md](Output/HeroesOfPimoli.md) that contains just data breakdowns and analysis
+
+- Also here is a screenshot of the part of the analysis
 
 ![Heroes of Pymoli Summary](Screenshots/HerioesOfPymoli.png)

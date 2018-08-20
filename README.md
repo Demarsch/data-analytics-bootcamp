@@ -10,4 +10,4 @@ This repository will contain all my activities related to the completion of the 
 
 [03 - PyWare](03%20-%20PyWare)
 
-[04 - The Kingdom of Pandas](04%20-%20The%20Kingdom%20of%20Pandas)
+[04 - Heroes of Pymoli](04%20-%20Heroes%20of%20Pymoli)
