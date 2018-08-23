@@ -18,7 +18,7 @@ Now I assume that I'm volunteer for the education department and my goal is to a
   
 - A Jupyter Notebook [HeroesOfPymoli.ipynb](Code/HeroesOfPymoli.ipynb) that contains Python code, all the necessary data breakdowns and some trends uncovered
 
-- An HTML file [HeroesOfPymoli.html](Output/HeroesOfPymoli.html) that contains just data breakdowns and analysis
+- A markdown file [HeroesOfPymoli.md](Output/HeroesOfPymoli.md) that contains just data breakdowns and analysis
 
 - Also here is a screenshot of the part of the analysis
 
@@ -32,7 +32,7 @@ Now I assume that I'm volunteer for the education department and my goal is to a
   
 - A Jupyter Notebook [AcademyOfPy.ipynb](Code/AcademyOfPy.ipynb) that contains Python code, all the necessary data breakdowns and some trends uncovered
 
-- An HTML file [AcademyOfPy.html](Output/AcademyOfPy.html) that contains just data breakdowns and analysis
+- A markdown file [AcademyOfPy.md](Output/AcademyOfPy.md) that contains just data breakdowns and analysis
   
 - Also here is a screenshot of the part of the analysis
 
