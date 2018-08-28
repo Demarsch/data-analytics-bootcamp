@@ -4,7 +4,7 @@
 
 ### Pymaceuticals Inc
 
-As a Data Analyst, I've been given access to the complete data from the most recent animal study on drug-based anti-cancer treatment. In this study, 250 mice were treated through a variety of drug regimes over the course of 45 days. Their physiological responses were then monitored over the course of that time. My objective is to analyze the data to show how four treatments (Capomulin, Infubinol, Ketapril, and Placebo) compare.
+As a Data Analyst, I've been given access to the complete data from the most recent animal study on drug-based anti-cancer treatment. In this study, 250 mice were treated through a variety of drug regimes over the course of 45 days. Their physiological responses were then monitored over the course of that time. My objective is to analyze the data to show how four treatments (Capomulin, Infubinol, Ketapril and Placebo) compare.
 
 ## What is Inside
 
@@ -16,8 +16,15 @@ As a Data Analyst, I've been given access to the complete data from the most rec
   
 - A Jupyter Notebook [Pymaceuticals.ipynb](Code/Pymaceuticals.ipynb) that contains Python code, all the necessary data breakdowns and some trends uncovered
 
-- A markdown file [Pymaceuticals.md](Output/Pymaceuticals.md) that contains just data breakdowns and analysis
+- ~~A markdown file [Pymaceuticals.md](Output/Pymaceuticals.md) that contains just data breakdowns and analysis~~ Will be added later
   
-- Also here is a screenshot of the part of the analysis
+- The charts built from the sample data in the [Charts](Output/Charts) folder
+  
+  - **Tumor Response to Treatment**
+    ![Tumor Response to Treatment](Output/Charts/Tumor%20Response%20to%20Treatment.png)
 
-![Pymaceuticals Summary](Screenshots/Pymaceuticals.png)
+  - **Metastatic Response to Treatment**
+    ![Metastatic Response to Treatment](Output/Charts/Metastatic%20Response%20to%20Treatment.png)
+
+  - **Survival During Treatment**
+    ![Survival During Treatment](Output/Charts/Survival%20During%20Treatment.png)
