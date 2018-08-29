@@ -16,7 +16,7 @@ As a Data Analyst, I've been given access to the complete data from the most rec
   
 - A Jupyter Notebook [Pymaceuticals.ipynb](Code/Pymaceuticals.ipynb) that contains Python code, all the necessary data breakdowns and some trends uncovered
 
-- ~~A markdown file [Pymaceuticals.md](Output/Pymaceuticals.md) that contains just data breakdowns and analysis~~ Will be added later
+- A markdown file [Pymaceuticals.md](Output/Pymaceuticals.md) that contains just data breakdowns and analysis
   
 - The charts built from the sample data in the [Charts](Output/Charts) folder
   
@@ -35,3 +35,9 @@ As a Data Analyst, I've been given access to the complete data from the most rec
   - **Survival During Treatment**
     
     ![Survival During Treatment](Output/Charts/Survival%20During%20Treatment.png)
+
+  - **Tumor Volume Change over Treatment**
+
+    ![Tumor Volume Change over Treatment](Output/Charts/Tumor%20Volume%20Change%20over%20Treatment.png)
+
+    Error bars represent one standard error of mean
