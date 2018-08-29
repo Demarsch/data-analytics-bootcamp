@@ -21,10 +21,17 @@ As a Data Analyst, I've been given access to the complete data from the most rec
 - The charts built from the sample data in the [Charts](Output/Charts) folder
   
   - **Tumor Response to Treatment**
+    
     ![Tumor Response to Treatment](Output/Charts/Tumor%20Response%20to%20Treatment.png)
 
+    Error bars represent one standard error of mean
+
   - **Metastatic Response to Treatment**
+    
     ![Metastatic Response to Treatment](Output/Charts/Metastatic%20Response%20to%20Treatment.png)
 
+    Error bars represent one standard error of mean
+
   - **Survival During Treatment**
+    
     ![Survival During Treatment](Output/Charts/Survival%20During%20Treatment.png)
