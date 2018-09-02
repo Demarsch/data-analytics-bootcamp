@@ -1,0 +1,1 @@
+ow_api_key = 'OPENWEATHER.COM API KEY'
