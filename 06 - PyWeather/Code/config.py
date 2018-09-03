@@ -1,1 +1,1 @@
-ow_api_key = 'OPENWEATHER.COM API KEY'
+cities_count = 500
