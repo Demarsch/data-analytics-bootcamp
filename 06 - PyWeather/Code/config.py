@@ -1,1 +1,1 @@
-cities_count = 500
+owm_api_key = ''
