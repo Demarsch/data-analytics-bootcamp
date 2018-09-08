@@ -13,3 +13,5 @@ This repository will contain all my activities related to the completion of the 
 [04 - The Realm of Pandas](04%20-%20The%20Realm%20of%20Pandas)
 
 [05 - The Power of Plots](05%20-%20The%20Power%20of%20Plots)
+
+[06 - PyWeather](06%20-%20PyWeather)
