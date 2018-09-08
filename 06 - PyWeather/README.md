@@ -8,7 +8,7 @@ Based on the multiple weather observations my goal is to prove that the temperat
   
 - A Jupyter Notebook [PyWeather.ipynb](Code/PyWeather.ipynb) that contains Python code, all the necessary data breakdowns and some trends uncovered
 
-- A markdown file [PyWeather.md](Output/Pymaceuticals.md) that contains just data breakdowns and analysis
+- A markdown file [PyWeather.md](Output/PyWeather.md) that contains just data breakdowns and analysis
   
 - The charts built from the randomly picked observations in the [Charts](Output/Charts) folder
 
