@@ -15,3 +15,9 @@ This repository will contain all my activities related to the completion of the 
 [05 - The Power of Plots](05%20-%20The%20Power%20of%20Plots)
 
 [06 - PyWeather](06%20-%20PyWeather)
+
+[07 - PlotBot](https://github.com/Demarsch/twitter-sent-asys-bot)
+
+## Group Projects
+
+[01 - Gun Violence](https://github.com/Demarsch/gun-violence)
