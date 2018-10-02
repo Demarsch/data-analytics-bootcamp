@@ -18,6 +18,8 @@ This repository will contain all my activities related to the completion of the 
 
 [07 - PlotBot](https://github.com/Demarsch/twitter-sent-asys-bot)
 
+[08 - SQL](08%20-%20SQL)
+
 ## Group Projects
 
 [01 - Gun Violence](https://github.com/Demarsch/gun-violence)
