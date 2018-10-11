@@ -10,6 +10,8 @@ This time I perform Hawai climate analysis using Python's ORM `SQLAlchemy` for q
   
 - SQLite database file [hawaii.sqlite](hawaii.sqlite)
 
+- `Flask` Python [app](web_app.py) to provide access to the database via RESTful service
+
 - Some charts saved as images
 
   - ### Hawai Precipitation Data
