@@ -22,6 +22,8 @@ This repository will contain all my activities related to the completion of the 
 
 [09 - SQLAlchemy](09%20-%20SQLAlchemy)
 
+10 - Web ([source](https://github.com/Demarsch/drug-trials), [website](https://demarsch.github.io/drug-trials/))
+
 ## Group Projects
 
 [01 - Gun Violence](https://github.com/Demarsch/gun-violence)
