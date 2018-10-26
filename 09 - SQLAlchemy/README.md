@@ -2,7 +2,7 @@
 
 ## What is this about?
 
-This time I perform Hawai climate analysis using Python's ORM `SQLAlchemy` for querying the database, `pandas` library for data analysis, `matplotlib` for plotting and `FLASK` to build a RESTful service,
+This time I perform Hawai climate analysis using Python's ORM `SQLAlchemy` for querying the database, `pandas` library for data analysis, `matplotlib` for plotting and `FLASK` to build a RESTful service.
 
 ## What is Inside
   

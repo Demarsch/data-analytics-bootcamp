@@ -24,6 +24,8 @@ This repository will contain all my activities related to the completion of the 
 
 10 - Web ([source](https://github.com/Demarsch/drug-trials), [website](https://demarsch.github.io/drug-trials/))
 
+[11 - Web Scraping](11%20-%20Web%20Scraping)
+
 ## Group Projects
 
 [01 - Gun Violence](https://github.com/Demarsch/gun-violence)
