@@ -45,7 +45,7 @@ def scrape_featured_image():
     if section:
         article = section.find('article', class_='carousel_item')
         if article:
-            match = re.search("url\('.+'\)", article['style'])
+            match = re.search(r"url\('.+'\)", article['style'])
             featured_img_url = match[0][5:][:-2]
             featured_img_url = f'{url_base}{featured_img_url}'
             title = article.h1
@@ -75,7 +75,6 @@ def scrape_facts():
     # Scraping Space Facts webpage for the interesting info on Mars
     url = 'http://space-facts.com/mars/'
     browser.visit(url)
-    soup = bs(browser.html, 'lxml')
 
     facts_df = pd.read_html(browser.html)[0]
     facts_df.rename(columns={0:'Fact', 1:'Details'}, inplace=True)
@@ -90,30 +89,31 @@ def scrape_hemisphere_images():
     browser.visit(url)
     soup = bs(browser.html, 'lxml')
 
-    thumbs = soup.find_all('a', class_='itemLink')
+    thumbs = soup.find_all('div', class_='item')
     hemisphere_images = []
     word_to_trim = ' Enhanced'
     for thumb in thumbs:
         img_url = None
         img_title = None
-        
-        browser.visit(f'{url_base}{thumb["href"]}')
-        soup = bs(browser.html, 'lxml')
-        img = soup.find('img', class_='wide-image')
-        if img:
-            img_url = img['src']
-            img_url = f'{url_base}{img_url}'
-        title = soup.find('h2', class_='title')
-        if title:
-            img_title = title.text.strip()
-            if img_title.endswith(word_to_trim):
-                img_title = img_title[:-len(word_to_trim)]
-        
-        if img_url:
-            hemisphere_images.append({
-                'title': img_title,
-                'url': img_url
-            })
+        thumb_link = thumb.find('a', class_='itemLink')
+        if thumb_link:    
+            browser.visit(f'{url_base}{thumb_link["href"]}')
+            soup = bs(browser.html, 'lxml')
+            img = soup.find('img', class_='wide-image')
+            if img:
+                img_url = img['src']
+                img_url = f'{url_base}{img_url}'
+            title = soup.find('h2', class_='title')
+            if title:
+                img_title = title.text.strip()
+                if img_title.endswith(word_to_trim):
+                    img_title = img_title[:-len(word_to_trim)]
+
+            if img_url:
+                hemisphere_images.append({
+                    'title': img_title,
+                    'url': img_url
+                })
     return hemisphere_images
 
 def scrape_all():
@@ -123,3 +123,4 @@ def scrape_all():
     result['weather'] = scrape_weather()
     result['facts'] = scrape_facts()
     result['hemisphere_images'] = scrape_hemisphere_images()
+    return result
