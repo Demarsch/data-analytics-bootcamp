@@ -1,0 +1,24 @@
+h2 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.table th,.table td {
+    border-width: 0;
+    padding: 0.25rem;
+}
+
+p.text {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    color: #505050;
+}

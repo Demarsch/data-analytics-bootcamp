@@ -5,14 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Mars Data</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles.css') }}">
 </head>
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <div class="jumbotron text-center">
-      <h1>All info on the Mars in one place</h1>
+      <h1>All info on the Mars in one place!</h1>      
       <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape!</a></p>
+    </div>    
+    {%if data %}
+    <div class="container-fluid">
+      <div class="row">
+        <section class="col-12">
+          <h2>Latest Mars News</h2>
+          <h3>{{ data['news']['title'] }}</h3>
+          <p class="text">{{ data['news']['text'] }}</p>
+        </section>
+      </div>
+      <div class="row">
+        <section class="col-xs-12 col-md-12 col-lg-8">
+          <h2>Featured Mars Image</h2>
+          <img src="{{ data['featured_image']['url'] }}" title="{{ data['featured_image']['title'] }}" alt="{{ data['featured_image']['title'] }}">
+        </section>
+        <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-4 mx-0 mt-3 mt-lg-0">
+          <section class="col-xs-12 col-sm-6 col-md-6 col-lg-12 border pt-3">
+            <h3>Current Weather on Mars</h3>
+            <p class="text">{{ data['weather'] }}</p>
+          </section>
+          <section class="col-xs-12 col-sm-6 col-md-6 col-lg-12 mt-3 mt-lg-3">
+            {{ data['facts']|safe }}
+          </section>
+        </div>  
+      </div>
     </div>
+    {% endif %}
   </div>
 </body>
 </html>

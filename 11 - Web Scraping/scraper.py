@@ -78,9 +78,8 @@ def scrape_facts():
 
     facts_df = pd.read_html(browser.html)[0]
     facts_df.rename(columns={0:'Fact', 1:'Details'}, inplace=True)
-    facts = facts_df.to_dict(orient='list')
-    return facts
-
+    facts_df.set_index('Fact', inplace=True)
+    return facts_df.to_html(classes=['table', 'table-stripped'], border=0, header=False)
 
 def scrape_hemisphere_images():
     # Scraping high-res images of Mars hemispheres
