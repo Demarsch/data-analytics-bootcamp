@@ -10,4 +10,10 @@ This is the demonstration of scraping multiple web pages for the different piece
 
 - A Python file [scraper.py](scraper.py) that contains all the same logic but in the form of a script
 
-- `Flask` Python [app](web_app.py) that provides UI to run the scraping process and display its results
+- `Flask` Python [app](web_app.py) that provides responsive UI to run the scraping process and display its results
+
+- Here is what a webpage looks like on a medium screen
+
+![Webpage1](screenshots/1.png)
+
+![Webpage2](screenshots/2.png)

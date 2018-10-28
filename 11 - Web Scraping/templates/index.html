@@ -12,7 +12,15 @@
   <div class="container-fluid">
     <div class="jumbotron text-center">
       <h1>All info on the Mars in one place!</h1>      
-      <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape!</a></p>
+      <p>
+        <a class="btn btn-primary btn-lg" href="/scrape" role="button">
+          {% if data %}
+          Scrape Again!
+          {% else %}
+          Scrape!
+          {% endif %}
+        </a>
+      </p>
     </div>    
     {%if data %}
     <div class="container-fluid">
@@ -36,7 +44,20 @@
           <section class="col-xs-12 col-sm-6 col-md-6 col-lg-12 mt-3 mt-lg-3">
             {{ data['facts']|safe }}
           </section>
-        </div>  
+        </div> 
+        <section class="row">
+          <div class="col-12 text-center">
+            <h2>Mars Hemispheres</h2>
+          </div>
+          {% for image in data['hemisphere_images'] %}
+          <div class="col-xs-12 col-sm-12 col-md-6">
+            <figure>
+              <img src="{{ image['url'] }}" alt="{{ image['title'] }}">
+              <figcaption>{{ image['title'] }}</figcaption>
+            </figure>
+          </div>
+          {% endfor %}
+        </section>
       </div>
     </div>
     {% endif %}

@@ -12,9 +12,28 @@ img {
     max-width: 100%;
 }
 
+figure {
+    padding: 0.5rem;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 0.25rem;
+}
+
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0 0 0.3rem 0.3rem;
+    margin-bottom: 0.5rem;
+}
+
 .table th,.table td {
     border-width: 0;
-    padding: 0.25rem;
+    padding: 0.25rem 0;
 }
 
 p.text {
