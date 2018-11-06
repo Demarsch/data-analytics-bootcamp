@@ -18,13 +18,15 @@ This repository will contain all my activities related to the completion of the 
 
 [07 - PlotBot](https://github.com/Demarsch/twitter-sent-asys-bot)
 
-[08 - SQL](08%20-%20SQL)
+[08 - Sakila](08%20-%20SQL)
 
-[09 - SQLAlchemy](09%20-%20SQLAlchemy)
+[09 - Hawai Climate Analysis](09%20-%20SQLAlchemy)
 
-10 - Web ([source](https://github.com/Demarsch/drug-trials), [website](https://demarsch.github.io/drug-trials/))
+10 - Drug Trials ([source](https://github.com/Demarsch/drug-trials), [website](https://demarsch.github.io/drug-trials/))
 
-[11 - Web Scraping](11%20-%20Web%20Scraping)
+[11 - Mission to Mars](11%20-%20Web%20Scraping)
+
+12 - UFO Sightings ([source](https://github.com/Demarsch/ufo-sightings), [website](https://demarsch.github.io/ufo-sightings/))
 
 ## Group Projects
 
