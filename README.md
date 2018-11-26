@@ -30,6 +30,8 @@ This repository will contain all my activities related to the completion of the 
 
 13 - Belly Button Biodiversity ([source](https://github.com/Demarsch/belly-button-biodiversity), [website](https://bbbdiversity.herokuapp.com/))
 
+14 - US Healthcare Visualization ([source](https://github.com/Demarsch/us-hc-visual), [website](https://demarsch.github.io/us-hc-visual/))
+
 ## Group Projects
 
 [01 - Gun Violence](https://github.com/Demarsch/gun-violence)
